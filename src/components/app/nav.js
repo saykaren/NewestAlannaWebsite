@@ -19,15 +19,15 @@ function NavigationBar(){
               </div>
               <div className="navLink"> 
                 <Link to={"/Services"}>Services</Link>
-                <div className="subNavLink"> 
+                <section className="subNavLink"> 
                   <Link to={"/Services/FAQ"}>FAQ</Link>
-                </div>
+                </section>
               </div>
               <div className="navLink">
                 <Link to={"/Schedule"}>Schedule Testing</Link>
-                <div className="subNavLink"> 
+                <section className="subNavLink"> 
                   <Link to={"/Schedule/Credentials"}>Credentials</Link>
-                </div>
+                </section>
               </div>
               <div className="navLink">
                 <Link to={"/contact"}>Contact Me</Link>
