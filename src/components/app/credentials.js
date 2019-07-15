@@ -5,45 +5,56 @@ import HeroSection from './heroSection';
 function Credentials(){
   return(
     <div>
-      <HeroSection />
-   
-      <div
+      <main
         className={"credentials"}
       >
-        <div
+        <h2
           id={"credentialTitle"}
         >
-          <strong>Alanna Everett's Credentials</strong> 
-        </div>
+          <strong>
+            Alanna Everett's Credentials
+          </strong> 
+        </h2>
         
-        <div
+        <section
           id={"licenseNumber"}
           className={"credentialDetails"}
         >
-          <strong>License Number:</strong> 152423 <br></br>
+          <strong>
+            License Number:
+          </strong>
+            152423 
+          <br></br>
           <a 
             href={"https://apps.colorado.gov/cde/licensing/Lookup/LicenseLookup.aspx"} 
             target={"_blank"}
             rel={"noopener noreferrer"}
           >
             License Lookup
-            </a>
-        </div>
+          </a>
+        </section>
 
-        <div
+        <section
         id={"occupation"}
         className={"credentialDetails"}
         >
-          <strong>Occupation:</strong> Psychologist
-        </div>
+          <strong>
+            Occupation:
+          </strong> 
+            Psychologist
+        </section>
       
-      <div
-      id={"address"}
-      className={"credentialDetails"}
-      >
-          <strong>Address:</strong> Thornton, CO
-        </div>
-      </div>
+        <section
+          id={"address"}
+          className={"credentialDetails"}
+        >
+          <strong>
+            Address:
+          </strong>
+        Thornton, CO
+        </section>
+      </main>
+      <HeroSection />
     </div>
   );
 }

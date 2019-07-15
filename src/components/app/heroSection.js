@@ -6,35 +6,36 @@ import alannaHero from '../../assets/alanna_heroPic.jpg'
 function HeroSection(){
   return(
     <div>
-      <div
+      <main
         className={"heroSection"}
         id={"heroImage"}
       >
         
-        <div
+        <h1
         id={"heroText"}
         >
           Alanna Everett
-        <div id={"heroTitle"}>
-          Psychologist
-        </div>
-
-        </div>
+          <h2 id={"heroTitle"}>
+            Psychologist
+          </h2>
+        </h1>
 
         <img src={alannaHero}
           alt={"Alanna Teaching"} 
           id={"heroContactPic"}
           rel={"noopener noreferrer"}
         />
-        <div id={"buttonSignUp"}>
-                      <a href="https://www.signupgenius.com/go/10C044DA9AB2AA46-alanna" 
-                        target={"_blank" }
-                        rel={"noopener noreferrer"}
-                      className={"button"} 
-                      id={"buttonMain"}>
-                        IQ Testing Schedule</a>
-        </div>
-      </div> 
+        <h3 id={"buttonSignUp"}>
+          <a href="https://www.signupgenius.com/go/10C044DA9AB2AA46-alanna" 
+            target={"_blank" }
+            rel={"noopener noreferrer"}
+            className={"button"} 
+            id={"buttonMain"}
+          >
+            IQ Testing Schedule
+          </a>
+        </h3>
+      </main> 
     <ContactMe />
     </div> 
   );
