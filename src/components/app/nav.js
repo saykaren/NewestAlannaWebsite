@@ -13,23 +13,23 @@ function NavigationBar(){
     
       <Router> 
           <div>
-            <nav className={"navBar"}>
-              <div className={"navLink"}>
+            <nav className="navBar">
+              <div className="navLink">
                 <Link to="/Home">Home</Link>
               </div>
-              <div className={"navLink"}> 
+              <div className="navLink"> 
                 <Link to={"/Services"}>Services</Link>
-                <div className={"subNavLink"}> 
+                <div className="subNavLink"> 
                   <Link to={"/Services/FAQ"}>FAQ</Link>
                 </div>
               </div>
-              <div className={"navLink"}>
+              <div className="navLink">
                 <Link to={"/Schedule"}>Schedule Testing</Link>
-                <div className={"subNavLink"}> 
+                <div className="subNavLink"> 
                   <Link to={"/Schedule/Credentials"}>Credentials</Link>
                 </div>
               </div>
-              <div className={"navLink"}>
+              <div className="navLink">
                 <Link to={"/contact"}>Contact Me</Link>
               </div>
             </nav>

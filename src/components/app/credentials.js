@@ -6,10 +6,10 @@ function Credentials(){
   return(
     <div>
       <main
-        className={"credentials"}
+        className="credentials"
       >
         <h2
-          id={"credentialTitle"}
+          id="credentialTitle"
         >
           <strong>
             Alanna Everett's Credentials
@@ -17,8 +17,8 @@ function Credentials(){
         </h2>
         
         <section
-          id={"licenseNumber"}
-          className={"credentialDetails"}
+          id="licenseNumber"
+          className="credentialDetails"
         >
           <strong>
             License Number:
@@ -26,17 +26,17 @@ function Credentials(){
             152423 
           <br></br>
           <a 
-            href={"https://apps.colorado.gov/cde/licensing/Lookup/LicenseLookup.aspx"} 
-            target={"_blank"}
-            rel={"noopener noreferrer"}
+            href="https://apps.colorado.gov/cde/licensing/Lookup/LicenseLookup.aspx"
+            target="_blank"
+            rel="noopener noreferrer"
           >
             License Lookup
           </a>
         </section>
 
         <section
-        id={"occupation"}
-        className={"credentialDetails"}
+        id="occupation"
+        className="credentialDetails"
         >
           <strong>
             Occupation:
@@ -45,8 +45,8 @@ function Credentials(){
         </section>
       
         <section
-          id={"address"}
-          className={"credentialDetails"}
+          id="address"
+          className="credentialDetails"
         >
           <strong>
             Address:

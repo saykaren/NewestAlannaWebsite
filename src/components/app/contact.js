@@ -4,17 +4,17 @@ import './App.css';
 function ContactMe(){
   return(
     <main
-      className={"contactMe"}
+      className="contactMe"
     >
       <section
-        id={"contactTitle"}
+        id="contactTitle"
       >
         <strong>Contact Me</strong>
       </section>
       
       <section
-        id={"email"}
-        className={"contactMeDetails"}
+        id="email"
+        className="contactMeDetails"
       >
         <strong>
           Email:
@@ -25,8 +25,8 @@ function ContactMe(){
       </section>
 
       <section
-        id={"phone"}
-        className={"contactMeDetails"}
+        id="phone"
+        className="contactMeDetails"
       >
         <strong>
           Phone:
@@ -36,8 +36,8 @@ function ContactMe(){
         </a>
       </section>
      <section
-      id={"address"}
-      className={"contactMeDetails"}
+      id="address"
+      className="contactMeDetails"
      >
       <strong>
         Address:

@@ -5,8 +5,8 @@ function FAQ(){
   return(
     <div>
       <h1
-        id={"faqTitle"}
-        className={"faqTitles"}
+        id="faqTitle"
+        className="faqTitles"
       >
         <strong>
           Frequently Asked Questions
@@ -14,18 +14,18 @@ function FAQ(){
       </h1>
 
       <main
-       className={"faq"}
+       className="faq"
       >
         <section
-          className={"faqBox"}
+          className="faqBox"
         >
           <h2
-            className={"faqQuestion"}
+            className="faqQuestion"
           >
             <strong>What is the cost?</strong>
           </h2>
           <details
-            className={"faqAnswer"}
+            className="faqAnswer"
           >
           <summary>
             Pricing Details
@@ -37,17 +37,17 @@ function FAQ(){
         </section>
           
         <section
-          className={"faqBox"}
+          className="faqBox"
         >
           <h2
-              className={"faqQuestion"}
+              className="faqQuestion"
           >
             <strong>
               Where does the testing take place?
             </strong>
           </h2>
           <details
-            className={"faqAnswer"}
+            className="faqAnswer"
           >
           <summary>
             In your home
@@ -57,17 +57,17 @@ function FAQ(){
         </section>
 
         <section
-          className={"faqBox"}
+          className="faqBox"
         >
           <h2
-              className={"faqQuestion"}
+              className="faqQuestion"
           >
             <strong>
               What do I need to prepare at our house for the test?
             </strong>
           </h2>
           <details
-            className={"faqAnswer"}
+            className="faqAnswer"
           >
           <summary>
             Quite Working Space
@@ -77,17 +77,17 @@ function FAQ(){
         </section>
 
         <section
-          className={"faqBox"}
+          className="faqBox"
         >
           <h2
-              className={"faqQuestion"}
+              className="faqQuestion"
           >
             <strong>
               How can I prepare my child for this test?
             </strong>
           </h2>
           <details
-            className={"faqAnswer"}
+            className="faqAnswer"
           >
           <summary>Testing Child's Innate Knowledge</summary>
             No preparation is needed as this test will expose your child’s innate knowledge. 
@@ -95,17 +95,17 @@ function FAQ(){
         </section>
 
         <section
-          className={"faqBox"}
+          className="faqBox"
         >
           <h2
-              className={"faqQuestion"}
+              className="faqQuestion"
           >
             <strong>
               What tests do you administer? 
             </strong>
           </h2>
           <details
-            className={"faqAnswer"}
+            className="faqAnswer"
           >
           <summary>WPPSI-IV and others</summary>
             WPPSI-IV Wechsler Preschool and Primary Scale of Intelligence-Fourth Edition
@@ -113,17 +113,17 @@ function FAQ(){
         </section>
 
         <section
-          className={"faqBox"}
+          className="faqBox"
         >
           <h2
-              className={"faqQuestion"}
+              className="faqQuestion"
           >
             <strong>
               How long does it take to obtain the results of the test?
             </strong>
           </h2>
           <details
-            className={"faqAnswer"}
+            className="faqAnswer"
           >
           <summary>Details of Turnaround Time</summary>
             I ask for 1-2 weeks to prepare the final test result and issue a signed final PDF report. There is an option to expedite the result to 3 business days with a $50 convenience fee.

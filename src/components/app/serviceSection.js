@@ -8,11 +8,11 @@ function ServiceSection(){
   return(
     <div>
       <div
-        className={"services"}
+        className="services"
 
       >
-        <section className={"serviceSingleSection"}>
-          <h2 className={"serviceHeading"}>
+        <section className="serviceSingleSection">
+          <h2 className="serviceHeading">
           IQ Testing
           </h2>
             <article>
@@ -25,8 +25,8 @@ function ServiceSection(){
             </article>
         </section>
         
-        <section className={"serviceSingleSection"}>
-          <h2 className={"serviceHeading"}>
+        <section className="serviceSingleSection">
+          <h2 className="serviceHeading">
           How IQ Testing Conducted
           </h2>
             <article>
@@ -37,8 +37,8 @@ function ServiceSection(){
             </article>
         </section>
         
-        <section className={"serviceSingleSection"}>
-          <h2 className={"serviceHeading"}>
+        <section className="serviceSingleSection">
+          <h2 className="serviceHeading">
           How to schedule IQ Testing
           </h2>
             <article>
@@ -47,10 +47,10 @@ function ServiceSection(){
 
             <details>
               <a href="https://www.signupgenius.com/go/10C044DA9AB2AA46-alanna" 
-                target={"_blank" }
-                className={"button"} 
-                id={"buttonSign"}
-                rel={"noopener noreferrer"}
+                target="_blank" 
+                className="button"
+                id="buttonSign"
+                rel="noopener noreferrer"
               >
                 Sign Up
               </a>

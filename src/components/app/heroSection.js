@@ -7,30 +7,30 @@ function HeroSection(){
   return(
     <div>
       <main
-        className={"heroSection"}
-        id={"heroImage"}
+        className="heroSection"
+        id="heroImage"
       >
         
         <h1
-        id={"heroText"}
+        id="heroText"
         >
           Alanna Everett
-          <h2 id={"heroTitle"}>
+          <section id="heroTitle">
             Psychologist
-          </h2>
+          </section>
         </h1>
 
         <img src={alannaHero}
-          alt={"Alanna Teaching"} 
-          id={"heroContactPic"}
-          rel={"noopener noreferrer"}
+          alt="Alanna Teaching"
+          id="heroContactPic"
+          rel="noopener noreferrer"
         />
-        <h3 id={"buttonSignUp"}>
+        <h3 id="buttonSignUp">
           <a href="https://www.signupgenius.com/go/10C044DA9AB2AA46-alanna" 
-            target={"_blank" }
-            rel={"noopener noreferrer"}
-            className={"button"} 
-            id={"buttonMain"}
+            target="_blank"
+            rel="noopener noreferrer"
+            className="button"
+            id="buttonMain"
           >
             IQ Testing Schedule
           </a>

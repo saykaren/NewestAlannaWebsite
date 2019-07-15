@@ -7,27 +7,25 @@ function Footer(){
   return(
     <div>
       <h1
-        className={"footer"}
+        className="footer"
       >
         <footer
-          id={"footer"}
-          className={"footerDetails"}
+          id="footer"
+          className="footerDetails"
         >
           Website created by:
           <a 
-            href={"http://saykaren.com"} 
-            target={"_blank"}
-            rel={"noopener noreferrer"}
+            href="http://saykaren.com" 
+            target="_blank"
+            rel="noopener noreferrer"
           >
             <img src={sayKarenLogo}
-              className={"footerDetails"}
-              id={"sayKarenLogo"}
-              alt={"sayKaren"}
+              className="footerDetails"
+              id="sayKarenLogo"
+              alt="sayKaren.com"
             />
-            
-            </a>
+          </a>
         </footer>  
-  
       </h1>
     </div>
   );
