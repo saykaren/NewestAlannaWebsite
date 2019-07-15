@@ -6,10 +6,10 @@ import sayKarenLogo from '../../assets/sayKaren_Logo_transparent_7.2019.png'
 function Footer(){
   return(
     <div>
-      <div
+      <h1
         className={"footer"}
       >
-        <div
+        <footer
           id={"footer"}
           className={"footerDetails"}
         >
@@ -26,9 +26,9 @@ function Footer(){
             />
             
             </a>
-        </div>  
+        </footer>  
   
-      </div>
+      </h1>
     </div>
   );
 }
