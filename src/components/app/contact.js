@@ -17,10 +17,11 @@ function ContactMe(){
         className="contactMeDetails"
       >
         <strong>
-          Email:
+        <i class="fa fa-envelope" aria-hidden="true"></i>
         </strong> 
         <a href="mailto:alannaeeverett@gmail.com">
           alannaeeverett@gmail.com
+          
         </a>
       </section>
 
@@ -29,10 +30,11 @@ function ContactMe(){
         className="contactMeDetails"
       >
         <strong>
-          Phone:
+          <i class="fa fa-phone" aria-hidden="true"></i>
         </strong> 
         <a href="tel:+3035221514">
           303.522.1514
+          
         </a>
       </section>
      <section
@@ -40,7 +42,7 @@ function ContactMe(){
       className="contactMeDetails"
      >
       <strong>
-        Address:
+        <i class="fa fa-map-marker" aria-hidden="true"></i>
       </strong> 
         Thornton, CO
       </section>
