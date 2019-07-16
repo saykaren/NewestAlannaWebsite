@@ -19,9 +19,7 @@ function NavigationBar(){
               </div>
               <div className="navLink"> 
                 <Link to={"/Services"}>Services</Link>
-                <section className="subNavLink"> 
-                  <Link to={"/Services/FAQ"}>FAQ</Link>
-                </section>
+                
               </div>
               <div className="navLink">
                 <Link to={"/Schedule"}>Schedule Testing</Link>
@@ -31,6 +29,9 @@ function NavigationBar(){
               </div>
               <div className="navLink">
                 <Link to={"/contact"}>Contact Me</Link>
+                <section className="subNavLink"> 
+                  <Link to={"/contact/FAQ"}>FAQ</Link>
+                </section>
               </div>
             </nav>
           
@@ -39,7 +40,7 @@ function NavigationBar(){
             <Route exact strict path={"/Schedule/Credentials"} component={Credentials}/>
             <Route exact strict path={"/Services"} component={ServiceSection}/>
             <Route exact strict path={"/Schedule"} component={HeroSection}/>
-            <Route exact strict path={"/Services/FAQ"} component={FAQ}/>
+            <Route exact strict path={"/contact/FAQ"} component={FAQ}/>
             <Route path={'/contact'} component={ContactMe} />
               
           </div>

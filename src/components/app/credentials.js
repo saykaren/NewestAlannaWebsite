@@ -51,7 +51,7 @@ function Credentials(){
           <strong>
             Address:
           </strong>
-        Thornton, CO
+          Thornton, CO
         </section>
       </main>
       <HeroSection />

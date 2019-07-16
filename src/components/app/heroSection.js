@@ -9,8 +9,7 @@ function HeroSection(){
       <main
         className="heroSection"
         id="heroImage"
-      >
-        
+      >        
         <h1
         id="heroText"
         >
