@@ -1,10 +1,9 @@
 import React from 'react';
 import './App.css';
-import ContactMe from './contact';
+import ContactMe from './Contact';
 import alannaHero from '../../assets/alanna_heroPic.jpg'
 
-function HeroSection(){
-  return(
+const HeroSection= () => (
     <div>
       <main
         className="heroSection"
@@ -38,7 +37,5 @@ function HeroSection(){
     <ContactMe />
     </div> 
   );
-};
-
 
 export default HeroSection

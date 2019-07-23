@@ -2,9 +2,7 @@ import React from 'react';
 import './App.css';
 import sayKarenLogo from '../../assets/sayKaren_Logo_transparent_7.2019.png'
 
-
-function Footer(){
-  return(
+const Footer= ()=> (
     <div>
       <h1
         className="footer"
@@ -29,8 +27,5 @@ function Footer(){
       </h1>
     </div>
   );
-}
-
-
 
 export default Footer

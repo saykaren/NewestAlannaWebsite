@@ -2,8 +2,7 @@ import React from 'react';
 import './App.css';
 import karenReference from '../../assets/reference_Karen.jpg'
 
-function ReferenceSection(){
-  return(
+const ReferenceSection = () => (
     <div>
       <h1 id="referenceTitle">
         Reference Section
@@ -56,6 +55,5 @@ function ReferenceSection(){
         </main>
     </div>
   );
-}
 
 export default ReferenceSection

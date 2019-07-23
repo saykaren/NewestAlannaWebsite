@@ -1,8 +1,7 @@
 import React from 'react';
 import './App.css';
 
-function ContactMe(){
-  return(
+const ContactMe = () => (
     <main
       className="contactMe"
     >
@@ -49,8 +48,5 @@ function ContactMe(){
       </section>
     </main>
   );
-}
 
-
-
-export default ContactMe
+export default ContactMe;

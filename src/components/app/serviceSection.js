@@ -1,11 +1,9 @@
 import React from 'react';
 import './App.css';
-import ReferenceSection from './reference';
-import ContactMe from './contact';
+import ReferenceSection from './Reference';
+import ContactMe from './Contact';
 
-
-function ServiceSection(){
-  return(
+const ServiceSection = () => (
     <div>
       <div
         className="services"
@@ -62,7 +60,6 @@ function ServiceSection(){
     <ReferenceSection />
     <ContactMe />
     </div>
-  )
-}
+  );
 
 export default ServiceSection

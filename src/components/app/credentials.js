@@ -1,9 +1,8 @@
 import React from 'react';
 import './App.css';
-import HeroSection from './heroSection';
+import HeroSection from './HeroSection';
 
-function Credentials(){
-  return(
+const Credentials = ()=> (
     <div>
       <main
         className="credentials"
@@ -51,14 +50,11 @@ function Credentials(){
           <strong>
             Address:
           </strong>
-          Thornton, CO
+          Thornton, Colorado
         </section>
       </main>
       <HeroSection />
     </div>
   );
-}
-
-
 
 export default Credentials

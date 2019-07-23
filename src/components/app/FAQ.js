@@ -1,8 +1,7 @@
 import React from 'react';
 import './App.css';
 
-function FAQ(){
-  return(
+const FAQ =() => (
     <div>
       <h1
         id="faqTitle"
@@ -140,8 +139,5 @@ function FAQ(){
       </main>
     </div>
   );
-}
-
-
 
 export default FAQ
