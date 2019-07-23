@@ -15,9 +15,9 @@ const ReferenceSection = () => (
               alt="tina"
             />
             "Alanna was amazing! I worried about my son sitting that long for a test but Alanna made it very entertaining. Highly recommend her." 
-            <strong>
+            <span className="strong">
               -Tina
-            </strong> 
+            </span> 
           </section>
 
           <section className="reference">
@@ -26,9 +26,9 @@ const ReferenceSection = () => (
                 alt="tina"
               />          
               "I was amazed at how easy it was to schedule this test. My son doesn't sit still very long but Alanna allowed him to take multiple breaks to ensure he was focused on each section to get the best grade." 
-              <strong>
+              <span className="strong">
                 - Aaron
-              </strong> 
+              </span> 
           </section>
 
           <section className="reference">
@@ -37,9 +37,9 @@ const ReferenceSection = () => (
               alt="tina"
             />
             "Alanna did wonderful! I worried about my son sitting that long for a test but Alanna made it very entertaining. Highly recommend her." 
-            <strong>
+            <span className="strong">
               -Bob
-            </strong> 
+            </span> 
           </section>
 
           <section className="reference">
@@ -48,9 +48,9 @@ const ReferenceSection = () => (
               alt="reference Karen"
             />
             "I was amazed at how easy it was to schedule this test. Alanna made the process very easy and straightforward. She ensured all my questions were answered and most importantly that my daughter was comfortable while taking the test to do her best. Thank you Alanna!"
-            <strong> 
+            <span className="strong">
               - Karen
-            </strong> 
+            </span> 
           </section>
         </main>
     </div>

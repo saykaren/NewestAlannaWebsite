@@ -8,18 +8,16 @@ const ContactMe = () => (
       <section
         id="contactTitle"
       >
-        <strong>
+        <span className="strong">
           Contact Me
-        </strong>
+        </span>
       </section>
       
       <section
         id="email"
         className="contactMeDetails"
       >
-        <strong>
-          <i class="fa fa-envelope" aria-hidden="true"></i>
-        </strong> 
+        <i class="fa fa-envelope" aria-hidden="true"></i>
         <a href="mailto:alannaeeverett@gmail.com">
           alannaeeverett@gmail.com
         </a>
@@ -29,9 +27,7 @@ const ContactMe = () => (
         id="phone"
         className="contactMeDetails"
       >
-        <strong>
-          <i class="fa fa-phone" aria-hidden="true"></i>
-        </strong> 
+        <i class="fa fa-phone" aria-hidden="true"></i>
         <a href="tel:+3035221514">
           303.522.1514
         </a>
@@ -41,9 +37,7 @@ const ContactMe = () => (
         id="address"
         className="contactMeDetails"
       >
-        <strong>
-          <i class="fa fa-map-marker" aria-hidden="true"></i>
-        </strong> 
+        <i class="fa fa-map-marker" aria-hidden="true"></i>
           Thornton, CO
       </section>
     </main>

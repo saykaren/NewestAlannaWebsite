@@ -10,36 +10,37 @@ const Credentials = ()=> (
         <h2
           id="credentialTitle"
         >
-          <strong>
+          <span className="strong">
             Alanna Everett's Credentials
-          </strong> 
+          </span>
         </h2>
         
         <section
           id="licenseNumber"
           className="credentialDetails"
         >
-          <strong>
+          <span className="strong">
             License Number:
-          </strong>
+          </span>
             152423 
-          <br></br>
-          <a 
-            href="https://apps.colorado.gov/cde/licensing/Lookup/LicenseLookup.aspx"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            License Lookup
-          </a>
+          <div>
+            <a 
+              href="https://apps.colorado.gov/cde/licensing/Lookup/LicenseLookup.aspx"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              License Lookup
+            </a>
+          </div>
         </section>
 
         <section
         id="occupation"
         className="credentialDetails"
         >
-          <strong>
+          <span className="strong">
             Occupation:
-          </strong> 
+          </span> 
             Psychologist
         </section>
       
@@ -47,9 +48,9 @@ const Credentials = ()=> (
           id="address"
           className="credentialDetails"
         >
-          <strong>
+          <span className="strong">
             Address:
-          </strong>
+          </span>
           Thornton, Colorado
         </section>
       </main>

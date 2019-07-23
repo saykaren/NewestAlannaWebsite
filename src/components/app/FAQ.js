@@ -7,9 +7,9 @@ const FAQ =() => (
         id="faqTitle"
         className="faqTitles"
       >
-        <strong>
+        <span className="strong">
           Frequently Asked Questions
-        </strong>
+        </span>
       </h1>
 
       <main
@@ -21,9 +21,9 @@ const FAQ =() => (
           <h2
             className="faqQuestion"
           >
-            <strong>
+            <span className="strong">
               What is the cost?
-            </strong>
+            </span>
           </h2>
           <details
             className="faqAnswer"
@@ -32,8 +32,9 @@ const FAQ =() => (
               Pricing Details
             </summary>
               $250 March-August (Off season) 
-              <br></br>
-              $350 September-February
+              <div>
+                $350 September-February
+              </div>
           </details>
         </section>
           
@@ -43,9 +44,9 @@ const FAQ =() => (
           <h2
               className="faqQuestion"
           >
-            <strong>
+            <span className="strong">
               Where does the testing take place?
-            </strong>
+            </span>
           </h2>
           <details
             className="faqAnswer"
@@ -63,9 +64,9 @@ const FAQ =() => (
           <h2
               className="faqQuestion"
           >
-            <strong>
+            <span className="strong">
               What do I need to prepare at our house for the test?
-            </strong>
+            </span>
           </h2>
           <details
             className="faqAnswer"
@@ -83,9 +84,9 @@ const FAQ =() => (
           <h2
               className="faqQuestion"
           >
-            <strong>
+            <span className="strong">
               How can I prepare my child for this test?
-            </strong>
+            </span>
           </h2>
           <details
             className="faqAnswer"
@@ -103,9 +104,9 @@ const FAQ =() => (
           <h2
               className="faqQuestion"
           >
-            <strong>
+            <span className="strong">
               What tests do you administer? 
-            </strong>
+            </span>
           </h2>
           <details
             className="faqAnswer"
@@ -123,9 +124,9 @@ const FAQ =() => (
           <h2
               className="faqQuestion"
           >
-            <strong>
+            <span className="strong">
               How long does it take to obtain the results of the test?
-            </strong>
+            </span>
           </h2>
           <details
             className="faqAnswer"
