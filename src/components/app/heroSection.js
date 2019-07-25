@@ -1,6 +1,6 @@
 import React from 'react';
 import './App.css';
-import ContactMe from './Contact';
+import ContactMe from './ContactMe';
 import alannaHero from '../../assets/alanna_heroPic.jpg'
 
 const HeroSection= () => (

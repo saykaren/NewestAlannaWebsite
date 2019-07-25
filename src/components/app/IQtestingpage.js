@@ -5,7 +5,7 @@ import './index.css';
 import * as serviceWorker from '../../serviceWorker';
 import NavigationBar from './Nav';
 import ServiceSection from './ServiceSection';
-import ContactMe from './Contact';
+import ContactMe from './ContactMe';
 
 
 ReactDOM.render(

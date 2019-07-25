@@ -1,7 +1,7 @@
 import React from 'react';
 import './App.css';
 import ReferenceSection from './Reference';
-import ContactMe from './Contact';
+import ContactMe from './ContactMe';
 
 const ServiceSection = () => (
     <div>

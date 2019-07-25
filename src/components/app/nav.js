@@ -3,7 +3,7 @@ import './App.css';
 import {BrowserRouter as Router, Route, Link} from 'react-router-dom';
 import HeroSection from './HeroSection';
 import ServiceSection from './ServiceSection';
-import ContactMe from './Contact';
+import ContactMe from './ContactMe';
 import Credentials from './Credentials';
 import FAQ from './FAQ';
 import Home from './Home';
