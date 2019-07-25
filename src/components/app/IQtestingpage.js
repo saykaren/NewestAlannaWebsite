@@ -3,8 +3,8 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
 import * as serviceWorker from '../../serviceWorker';
-import NavigationBar from './Nav';
-import ServiceSection from './ServiceSection';
+import NavigationBar from './Navigation';
+import ServiceSection from './Service';
 import ContactMe from './ContactMe';
 
 

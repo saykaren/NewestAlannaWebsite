@@ -1,12 +1,12 @@
 import React from 'react';
 import './App.css';
 import {BrowserRouter as Router, Route, Link} from 'react-router-dom';
-import HeroSection from './HeroSection';
-import ServiceSection from './ServiceSection';
+import HeroSection from './HeroPicture';
+import ServiceSection from './Service';
 import ContactMe from './ContactMe';
-import Credentials from './Credentials';
+import Credentials from './Credential';
 import FAQ from './FAQ';
-import Home from './Home';
+import Home from './HomeSection';
 
 const NavigationBar = () => (
   <Router> 

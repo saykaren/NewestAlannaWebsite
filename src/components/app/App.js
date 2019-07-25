@@ -1,7 +1,7 @@
 import React from 'react';
 import './App.css';
-import NavigationBar from './Nav.js';
-import Footer from './Footer';
+import NavigationBar from './Navigation';
+import Footer from './Footer1';
 
 const App = () => (
     <div>

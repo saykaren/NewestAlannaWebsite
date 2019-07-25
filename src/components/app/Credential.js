@@ -1,6 +1,6 @@
 import React from 'react';
 import './App.css';
-import HeroSection from './HeroSection';
+import HeroSection from './HeroPicture';
 
 const Credentials = ()=> (
     <div>
