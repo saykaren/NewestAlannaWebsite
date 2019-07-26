@@ -2,7 +2,7 @@
   "name": "karenalannajuly",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://github.com/saykaren/NewestAlannaWebsite",
+  "homepage": "https://github.com/saykaren/NewestAlannaWebsite/blob/master/public/index.html",
   "dependencies": {
     "gh-pages": "^2.0.1",
     "react": "^16.8.6",
