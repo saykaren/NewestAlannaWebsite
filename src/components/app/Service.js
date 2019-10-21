@@ -25,7 +25,7 @@ const ServiceSection = () => (
         
         <section className="serviceSingleSection">
           <h2 className="serviceHeading">
-          How IQ Testing Conducted
+          How IQ Testing Is Conducted
           </h2>
             <article>
               Sectionto reassure parents of your skills
