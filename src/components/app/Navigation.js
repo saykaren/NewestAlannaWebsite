@@ -2,7 +2,7 @@ import React, { useState } from "react";
 
 const NavigationBar = ({ toggleActive, navActive, toggleNavMenu }) => {
   return (
-    <>
+    <section className="navBox">
       <div id="navButton" onClick={() => toggleNavMenu()}>
         {navActive ? <>&#10005;</> : <>&#9776;</>}
       </div>
@@ -24,9 +24,6 @@ const NavigationBar = ({ toggleActive, navActive, toggleNavMenu }) => {
           >
             Credentials
           </div>
-          {/* <div className="navBarDetails" onClick={() => toggleActive("AboutMe")}>
-          About Me
-        </div> */}
           <div
             className="navBarDetails"
             onClick={() => toggleActive("ContactMe")}
@@ -35,7 +32,7 @@ const NavigationBar = ({ toggleActive, navActive, toggleNavMenu }) => {
           </div>
         </div>
       )}
-    </>
+    </section>
   );
 };
 
