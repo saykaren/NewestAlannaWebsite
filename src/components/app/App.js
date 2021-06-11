@@ -21,7 +21,7 @@ const App = () => {
   };
 
   return (
-    <div>
+    <>
       <NavigationBar
         toggleActive={toggleActive}
         navActive={navActive}
@@ -35,7 +35,7 @@ const App = () => {
         {activeItem === "ContactMe" && <ContactMe />}
       </span>
       <Footer />
-    </div>
+    </>
   );
 };
 

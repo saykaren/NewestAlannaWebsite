@@ -1,8 +1,6 @@
-import React from 'react';
-import HeroSection from './HeroPicture';
+import React from "react";
+import HeroSection from "./HeroPicture";
 
-const Home = () => (
-    <HeroSection />  
-  );
+const Home = () => <HeroSection />;
 
-export default Home
+export default Home;
