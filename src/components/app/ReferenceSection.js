@@ -1,6 +1,5 @@
 import React from 'react';
-import './App.css';
-import karenReference from '../../assets/reference_Karen.jpg'
+import karenReference from '../assets/reference_Karen.jpg'
 
 const ReferenceSection = () => (
     <div>
@@ -56,4 +55,4 @@ const ReferenceSection = () => (
     </div>
   );
 
-export default ReferenceSection
+export default ReferenceSection;

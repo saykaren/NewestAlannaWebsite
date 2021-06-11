@@ -1,0 +1,74 @@
+@import "./variables.scss";
+
+.navBar {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  font-size: 1.3rem;
+  flex-wrap: wrap;
+  padding: 1rem;
+  padding-top: 82px;
+  z-index: 1;
+  position: fixed;
+  background-color: $menu-color;
+  opacity: 0.8;
+  height: 100vh;
+  min-width: 25%;
+  margin-top: -22px;
+}
+
+.navBar a {
+  text-decoration: none;
+  padding: 10px;
+  color: $primary-color;
+}
+
+#navButton {
+  padding: 10px;
+  z-index: 2;
+  position: fixed;
+  margin: 10px;
+  font-size: 30px;
+  color: $light-color;
+}
+
+.navLink a:hover {
+  color: $work-background;
+  cursor: pointer;
+}
+
+.navLink a:hover + .subNavLink {
+  display: block;
+}
+
+.navLink {
+  text-align: center;
+  border: 1px solid $light-color;
+  border-radius: 25px;
+  margin: 10px;
+  background-color: $light-color;
+  width: 15rem;
+  height: 2rem;
+}
+
+.subNavLink:hover {
+  display: block;
+  opacity: 0.5;
+}
+
+.subNavLink {
+  text-align: center;
+  margin: 10px;
+  width: 13rem;
+  display: none;
+  background: $light-color;
+  border-radius: 25px;
+}
+
+.navBarDetails {
+  padding: 5px;
+  color: $primary-color;
+  font-weight: bold;
+  text-shadow: 1px 1px $dark-color;
+  font-size: 1.2em;
+}
