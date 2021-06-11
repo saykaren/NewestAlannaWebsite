@@ -1,47 +1,42 @@
-import React from 'react';
-import './App.css';
-import {BrowserRouter as Router, Route, Link} from 'react-router-dom';
-import HeroSection from './HeroPicture';
-import ServiceSection from './Service';
-import ContactMe from './ContactMe';
-import Credentials from './Credential';
-import FAQ from './FAQ';
-import Home from './HomeSection';
+import React, { useState } from "react";
 
-const NavigationBar = () => (
-  <Router> 
-      <div>
-        <nav className="navBar">
-          <div className="navLink">
-            <Link to="/Home">Home</Link>
-          </div>
-          <div className="navLink"> 
-            <Link to={"/Services"}>Services</Link>
-            
-          </div>
-          <div className="navLink">
-            <Link to={"/Schedule"}>Schedule Testing</Link>
-            <section className="subNavLink"> 
-              <Link to={"/Schedule/Credentials"}>Credentials</Link>
-            </section>
-          </div>
-          <div className="navLink">
-            <Link to={"/contact"}>Contact Me</Link>
-            <section className="subNavLink"> 
-              <Link to={"/contact/FAQ"}>FAQ</Link>
-            </section>
-          </div>
-        </nav>
-      
-        <Route exact strict path={"/"} component={Home}/>
-        <Route path={"/Home"} component={Home}/>
-        <Route exact strict path={"/Schedule/Credentials"} component={Credentials}/>
-        <Route exact strict path={"/Services"} component={ServiceSection}/>
-        <Route exact strict path={"/Schedule"} component={HeroSection}/>
-        <Route exact strict path={"/contact/FAQ"} component={FAQ}/> 
-        <Route path={'/contact'} component={ContactMe} />
+const NavigationBar = ({ toggleActive, navActive, toggleNavMenu }) => {
+  return (
+    <>
+      <div id="navButton" onClick={() => toggleNavMenu()}>
+        {navActive ? <>&#10005;</> : <>&#9776;</>}
       </div>
-  </Router>      
-  );
 
-export default NavigationBar
+      {navActive && (
+        <div className="navBar">
+          <div className="navBarDetails" onClick={() => toggleActive("Home")}>
+            Home
+          </div>
+          <div
+            className="navBarDetails"
+            onClick={() => toggleActive("Service")}
+          >
+            Services
+          </div>
+          <div
+            className="navBarDetails"
+            onClick={() => toggleActive("Credential")}
+          >
+            Credentials
+          </div>
+          {/* <div className="navBarDetails" onClick={() => toggleActive("AboutMe")}>
+          About Me
+        </div> */}
+          <div
+            className="navBarDetails"
+            onClick={() => toggleActive("ContactMe")}
+          >
+            Contact Me
+          </div>
+        </div>
+      )}
+    </>
+  );
+};
+
+export default NavigationBar;

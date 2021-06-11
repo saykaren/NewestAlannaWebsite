@@ -1,6 +1,5 @@
 import React from 'react';
-import './App.css';
-import ReferenceSection from './References';
+import ReferenceSection from './ReferenceSection';
 import ContactMe from './ContactMe';
 
 const ServiceSection = () => (

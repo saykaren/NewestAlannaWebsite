@@ -1,4 +1,4 @@
-permalink: ./public/index.html
+[https://saykaren.github.io/Home](https://saykaren.github.io/Home)
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 

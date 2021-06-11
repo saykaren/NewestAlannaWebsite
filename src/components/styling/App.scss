@@ -1,0 +1,211 @@
+@import './variables.scss';
+@import './Navigation.scss';
+
+body, html {
+    height: 100%;
+    background-color: $secondary-color;
+    font-family: Arial, Helvetica, sans-serif; 
+  }
+  
+  .button{
+    text-decoration: none;
+    border: 1px solid $primary-color;
+    background-color: $primary-color;
+    color: white;
+    border-radius: 25px;
+    padding: 2px;
+    margin-top: 10px;
+    opacity: 0.9;
+  }
+  
+  .button:hover {
+    text-decoration: none;
+    border: 1px solid $light-color;
+    background-color: $light-color;
+    color: $secondary-color;
+    border-radius: 25px;
+    padding: 2px;
+    margin-top: 10px;
+  }
+  
+  #buttonMain{
+    font-size: 2rem;
+  }
+  
+  #buttonSignUp{
+    text-align: center;
+    margin-top: .7rem;
+    padding: 1rem;
+  }
+  
+  .contactMe{
+    color: $light-color;
+    font-size: 2rem;
+    padding: 1rem;
+  }
+  
+  #contactTitle{
+    text-align: center;
+    padding: 1rem;
+  }
+  
+  #credentialTitle, .faqTitles{
+    text-align: center;
+    color: $light-color;
+    font-size: 2rem;
+  }
+  
+  .credentialDetails, .contactMeDetails{
+    border: .2rem solid $primary-color;
+    font-size: 1.5rem;
+    margin: auto;
+    margin-bottom: .5rem;
+    background-color: $work-background;
+    position: relative;
+    color: $primary-color;
+    width: 45%;
+    word-wrap: break-word;
+    padding: 1rem;
+  }
+  
+  #footer{
+    width: 100%;
+    height: 3.5rem;
+    word-wrap: break-word;
+    background-color: $work-background;
+    color: $primary-color;
+    text-align: center;
+    font-size: 1.5rem;
+    bottom: 0;
+  }
+  
+  #heroContactPic {
+    width: 20rem;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border: 1px solid $dark-color;
+    margin-top: 5rem;
+  }
+  
+  .heroSection {
+    color: $light-color;
+    height: 50%;
+  }
+  
+  #heroText {
+    font-size: 4rem;
+    text-align: center;
+  }
+  
+  #heroTitle{
+    font-size: 0.5em;
+    margin-top: -1rem;
+    margin-bottom: -5rem;
+  }
+  
+//   .navBar {
+//     display: flex;
+//     flex-direction: row;
+//     justify-content: center;
+//     font-size: 1.3rem;
+//     flex-wrap: wrap; 
+//     padding: 1rem;
+//   }
+  
+//   .navBar a {
+//     text-decoration: none;
+//     padding: 10px;
+//   }
+  
+//   .navLink a:hover {
+//     color: $secondary-color;
+//     cursor: pointer;
+//   }
+  
+//   .navLink a:hover + .subNavLink {
+//     display: block;
+//   }
+  
+//   .subNavLink:hover{
+//     display: block;
+//     opacity: 0.5;
+//   }
+  
+//   .navLink {
+//     text-align: center;
+//     border: 1px solid $light-color;
+//     border-radius: 25px;
+//     margin: 10px;
+//     background-color: $light-color;
+//     width: 15rem;
+//     height: 2rem;
+//   }
+  
+//   .subNavLink {
+//     text-align: center;
+//     margin: 10px;
+//     width: 13rem;
+//     display: none;
+//     background:$light-color;
+//     border-radius: 25px;
+//   }
+  
+  .reference{
+    border: .2rem solid $dark-color;
+    width: 15rem;
+    margin: 1rem;
+    background-color: $work-background;
+    padding: .2rem;
+  }
+  
+  .referenceImage{
+    width: 15rem;
+  }
+  
+  #referenceSectionContainer{
+    display: flex;
+    flex-direction: row;
+    color: black;
+    flex-wrap: wrap;
+    justify-content: space-around;  
+  }
+  
+  #referenceTitle{
+    color: $light-color;
+    font-size: 2.5rem;
+    text-align: center;
+  }
+  
+  #sayKarenLogo {
+    height: 3.2rem;
+  }
+  
+  .services, .faq {
+    display: flex;
+    flex-direction: row;
+    color: black;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+  
+  .serviceSingleSection, .faqBox{
+    padding: 2.5rem;
+    width: 27rem;
+    border: .2rem solid $dark-color;
+    position: relative;
+    margin: 1rem;
+    background-color: $work-background;
+  }
+  
+  .serviceHeading, .faqQuestion {
+    border-bottom: .1rem solid $dark-color;
+    font-size: 1.5rem;
+    font-weight: bolder;
+  }
+  
+  .strong {
+    font-weight: bold;
+  }
+  
+  
