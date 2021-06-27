@@ -1,6 +1,7 @@
 import React from "react";
 import ContactMe from "./ContactMe";
 import alannaHero from "../assets/alanna_heroPic.jpg";
+import brain from "../assets/brain.png";
 
 const HeroSection = () => (
   <>
@@ -11,7 +12,7 @@ const HeroSection = () => (
       </section>
 
       <img
-        src={alannaHero}
+        src={brain}
         alt="Alanna Teaching"
         id="heroContactPic"
         rel="noopener noreferrer"
