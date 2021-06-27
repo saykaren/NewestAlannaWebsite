@@ -1,22 +1,23 @@
 {
   "files": {
-    "main.css": "/NewestAlannaWebsite/static/css/main.a8721ea8.chunk.css",
-    "main.js": "/NewestAlannaWebsite/static/js/main.a4b59b51.chunk.js",
-    "main.js.map": "/NewestAlannaWebsite/static/js/main.a4b59b51.chunk.js.map",
-    "runtime-main.js": "/NewestAlannaWebsite/static/js/runtime-main.fbfea0b7.js",
-    "runtime-main.js.map": "/NewestAlannaWebsite/static/js/runtime-main.fbfea0b7.js.map",
-    "static/js/2.12f681bd.chunk.js": "/NewestAlannaWebsite/static/js/2.12f681bd.chunk.js",
-    "static/js/2.12f681bd.chunk.js.map": "/NewestAlannaWebsite/static/js/2.12f681bd.chunk.js.map",
-    "index.html": "/NewestAlannaWebsite/index.html",
-    "static/css/main.a8721ea8.chunk.css.map": "/NewestAlannaWebsite/static/css/main.a8721ea8.chunk.css.map",
-    "static/js/2.12f681bd.chunk.js.LICENSE.txt": "/NewestAlannaWebsite/static/js/2.12f681bd.chunk.js.LICENSE.txt",
-    "static/media/alanna_heroPic.b1eea6b8.jpg": "/NewestAlannaWebsite/static/media/alanna_heroPic.b1eea6b8.jpg",
-    "static/media/reference_Karen.f73883db.jpg": "/NewestAlannaWebsite/static/media/reference_Karen.f73883db.jpg"
+    "main.css": "/static/css/main.503c4d77.chunk.css",
+    "main.js": "/static/js/main.ce15a318.chunk.js",
+    "main.js.map": "/static/js/main.ce15a318.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.e16c5445.js",
+    "runtime-main.js.map": "/static/js/runtime-main.e16c5445.js.map",
+    "static/js/2.12f681bd.chunk.js": "/static/js/2.12f681bd.chunk.js",
+    "static/js/2.12f681bd.chunk.js.map": "/static/js/2.12f681bd.chunk.js.map",
+    "index.html": "/index.html",
+    "static/css/main.503c4d77.chunk.css.map": "/static/css/main.503c4d77.chunk.css.map",
+    "static/js/2.12f681bd.chunk.js.LICENSE.txt": "/static/js/2.12f681bd.chunk.js.LICENSE.txt",
+    "static/media/alanna_heroPic.b1eea6b8.jpg": "/static/media/alanna_heroPic.b1eea6b8.jpg",
+    "static/media/brain.1adf6019.png": "/static/media/brain.1adf6019.png",
+    "static/media/reference_Karen.f73883db.jpg": "/static/media/reference_Karen.f73883db.jpg"
   },
   "entrypoints": [
-    "static/js/runtime-main.fbfea0b7.js",
+    "static/js/runtime-main.e16c5445.js",
     "static/js/2.12f681bd.chunk.js",
-    "static/css/main.a8721ea8.chunk.css",
-    "static/js/main.a4b59b51.chunk.js"
+    "static/css/main.503c4d77.chunk.css",
+    "static/js/main.ce15a318.chunk.js"
   ]
 }
