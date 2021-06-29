@@ -3,7 +3,7 @@ import ContactMe from "./ContactMe";
 
 
 const Credentials = () => (
-  <div>
+  <div className="web_section_box">
     <main className="credentials">
       <h2 id="credentialTitle">
         <span className="strong">Alanna Everett's Credentials</span>

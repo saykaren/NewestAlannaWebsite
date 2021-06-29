@@ -1,7 +1,7 @@
 import React from "react";
 
 const ContactMe = () => (
-  <main className="contactMe">
+  <main className="contactMe, web_section_box">
     <section id="contactTitle">
       <span className="strong">Contact Me</span>
     </section>

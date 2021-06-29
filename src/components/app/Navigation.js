@@ -16,7 +16,7 @@ const NavigationBar = ({ toggleActive, navActive, toggleNavMenu }) => {
             className="navBarDetails"
             onClick={() => toggleActive("Service")}
           >
-            Types of Services Offered
+            Services
           </div>
           <div
             className="navBarDetails"

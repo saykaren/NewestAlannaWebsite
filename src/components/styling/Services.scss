@@ -1,0 +1,28 @@
+@import './variables.scss';
+
+.notes {
+    text-align: center;
+}
+
+.services,
+.faq {
+  display: flex;
+  flex-direction: row;
+  color: black;
+  flex-wrap: wrap;
+}
+
+.serviceSingleSection,
+.faqBox {
+  padding: 2.5rem;
+  position: relative;
+  margin: 1rem;
+  background-color: $work-background;
+}
+
+.serviceHeading,
+.faqQuestion {
+  border-bottom: 0.1rem solid $dark-color;
+  font-size: 1.5rem;
+  font-weight: bolder;
+}

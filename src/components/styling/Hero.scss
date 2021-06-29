@@ -1,0 +1,23 @@
+@import "./variables.scss";
+#heroContactPic {
+  width: 20rem;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.heroSection {
+  color: $light-color;
+  height: 50%;
+}
+
+#heroText {
+  font-size: 4rem;
+  text-align: center;
+}
+
+#heroTitle {
+  font-size: 0.5em;
+  margin-top: -1rem;
+  margin-bottom: -5rem;
+}

@@ -3,65 +3,82 @@ import ReferenceSection from "./ReferenceSection";
 import ContactMe from "./ContactMe";
 
 const ServiceSection = () => (
-  <div>
+  <div className="web_section_box">
+    <h3 className="web_section_title">Services Offered By Dr. Everett</h3>
+    <div className="notes">
+      Note: I am currently limiting the scope of my services to better serve my
+      audience{" "}
+    </div>
     <div className="services">
       <section className="serviceSingleSection">
-        <h2 className="serviceHeading">IQ Testing</h2>
+        <h2 className="serviceHeading">GT Assessment</h2>
         <article>
-          The primary reason I receive requests for IQ Testing is for admissions
-          into a gifted school or program. There are a variety of benefits why
-          you should consider testing your child:
-          <ul>
-            <li>Reason One</li>
-            <li>Reason Two</li>
-            <li>Reason Three</li>
-          </ul>
+          Giftedness screening, including IQ testing (WISC-V or WAIS-IV,
+          depending on age), for ages 6 and older. Body of evidence. Early
+          access for kindergarten.
         </article>
       </section>
 
       <section className="serviceSingleSection">
-        <h2 className="serviceHeading">How IQ Testing Is Conducted</h2>
+        <h2 className="serviceHeading">Psychotherapy</h2>
         <article>
-          Sectionto reassure parents of your skills Lorem ipsum dolor sit amet,
-          urbanitas mnesarchum has eu. Has quis adipisci no, iudico eligendi
-          consulatu ex nec. Agam iusto consequuntur ius ne, eos ad viris
-          recusabo antiopam, at mei nibh affert ignota. Sit an lobortis
-          sadipscing. Lorem ipsum dolor sit amet, urbanitas mnesarchum has eu.
-          Has quis adipisci no, iudico eligendi consulatu ex nec. Agam iusto
-          consequuntur ius ne, eos ad viris recusabo antiopam, at mei nibh
-          affert ignota. Sit an lobortis sadipscing.
+          "Psychotherapy" means the treatment, diagnosis, testing, assessment,
+          or counseling in a professional relationship to assist individuals or
+          groups to alleviate mental disorders, understand unconscious or
+          conscious motivation, resolve emotional, relationship, or attitudinal
+          conflicts, or modify behaviors that interfere with effective
+          emotional, social, or intellectual functioning. Psychotherapy follows
+          a planned procedure of intervention that takes place on a regular
+          basis, over a period of time, or in the cases of testing, assessment,
+          and brief psychotherapy, psychotherapy can be a single intervention.
+        </article>
+      </section>
+      <section className="serviceSingleSection">
+        <h2 className="serviceHeading">Educational Consulting</h2>
+        <article>
+          Educational consultants are individuals who assist schools,
+          educational bodies and organisations or even parents and students
+          through problems they may have encountered related to education. Dr.
+          Everett specializes in working with students who have learning
+          challenges (learning disabilities) or have behavioral/emotional
+          difficulties, as well as their families. She will work with you (and
+          the schools if necessary) to help your child be as successful as
+          possible.
         </article>
       </section>
 
       <section className="serviceSingleSection">
-        <h2 className="serviceHeading">How to Schedule IQ Testing</h2>
+        <h2 className="serviceHeading">Comprehensive Assessments</h2>
         <article>
-          If you live within a 20 mile radius of Thornton, CO I would be
-          grateful to help adminster your child's IQ Testing. Please find my
-          availibility at the link below. Please contact me at{" "}
-          <a href="alannaeeverett@gmail.com" target="_blank">
-            alannaeeverett@gmail.com{" "}
-          </a>{" "}
-          with any questions or too see if I service your area.
-        </article>
+        <ul>
+          <li>
+          Giftedness
+          </li>
+          <li>
+          Twice Exceptionality (2e)
+          </li>
+          <li>
+          Specific Learning Disabilities (Reading, Writing, Math)
+          </li>
+          <li>
+          Executive Function Deficits
+          </li>
+          <li>
+          ADHD
+          </li>
+        </ul>
+        
+ 
 
-        <details>
-          <a
-            href="https://www.signupgenius.com/go/10C044DA9AB2AA46-alanna"
-            target="_blank"
-            className="button"
-            id="buttonSign"
-            rel="noopener noreferrer"
-          >
-            Sign Up
-          </a>
-        </details>
-        <br></br>
-        <br></br>
+          <details>
+          Simply put, a comprehensive assessment is an evaluation tool or system
+          that allows teachers to do the following things: Assess students'
+          overall understanding of the curriculum or skill. Boost students'
+          learning through improved teaching strategies.
+          </details>
+        </article>
       </section>
     </div>
-    <ReferenceSection />
-    <ContactMe />
   </div>
 );
 
