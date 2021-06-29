@@ -4,20 +4,19 @@ import alannaHero from "../assets/alanna_heroPic.jpg";
 import brain from "../assets/brain.png";
 
 const HeroSection = () => (
-  <>
+  <div className="web_section_box">
     <main className="heroSection" id="heroImage">
-      <section id="heroText">
-        Alanna Everett
-        <section id="heroTitle">Psychologist</section>
-      </section>
-
       <img
         src={brain}
         alt="Alanna Teaching"
         id="heroContactPic"
         rel="noopener noreferrer"
       />
-      <h3 id="buttonSignUp">
+      <section id="heroText">
+        Alanna Everett
+        <section id="heroTitle">Psychologist</section>
+      </section>
+      {/* <h3 id="buttonSignUp">
         <a
           href="https://www.signupgenius.com/go/10C044DA9AB2AA46-alanna"
           target="_blank"
@@ -27,9 +26,9 @@ const HeroSection = () => (
         >
           IQ Testing Schedule
         </a>
-      </h3>
+      </h3> */}
     </main>
-  </>
+  </div>
 );
 
 export default HeroSection;

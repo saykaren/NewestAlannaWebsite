@@ -1,6 +1,8 @@
 @import "./variables.scss";
 @import "./Navigation.scss";
 @import "./Footer.scss";
+@import "./Services.scss";
+@import "./Hero.scss";
 
 body,
 html {
@@ -72,31 +74,6 @@ html {
   padding: 1rem;
 }
 
-#heroContactPic {
-  width: 20rem;
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  border: 1px solid $dark-color;
-  margin-top: 5rem;
-}
-
-.heroSection {
-  color: $light-color;
-  height: 50%;
-}
-
-#heroText {
-  font-size: 4rem;
-  text-align: center;
-}
-
-#heroTitle {
-  font-size: 0.5em;
-  margin-top: -1rem;
-  margin-bottom: -5rem;
-}
-
 .reference {
   border: 0.2rem solid $dark-color;
   width: 15rem;
@@ -123,36 +100,23 @@ html {
   text-align: center;
 }
 
-#sayKarenLogo {
-  height: 3.2rem;
-}
-
-.services,
-.faq {
-  display: flex;
-  flex-direction: row;
-  color: black;
-  flex-wrap: wrap;
-  justify-content: space-around;
-}
-
-.serviceSingleSection,
-.faqBox {
-  padding: 2.5rem;
-  width: 27rem;
-  border: 0.2rem solid $dark-color;
-  position: relative;
-  margin: 1rem;
-  background-color: $work-background;
-}
-
-.serviceHeading,
-.faqQuestion {
-  border-bottom: 0.1rem solid $dark-color;
-  font-size: 1.5rem;
-  font-weight: bolder;
-}
-
 .strong {
   font-weight: bold;
+}
+
+#mainApp{
+  min-height: 90vh;
+  // padding-bottom: 10px;
+  padding: 10px;
+}
+.web_section_title {
+  text-align: center;
+  font-size: 2em;
+  // text-shadow: 4px 3px 0px #fff, 9px 8px 0px rgba(0,0,0,0.15); // double shadow
+  text-shadow:  4px 2px 0.5px rgba(0,0,0,0.15);
+  margin-left: 10px;
+}
+
+.web_section_box{
+  padding-top: 30px;
 }

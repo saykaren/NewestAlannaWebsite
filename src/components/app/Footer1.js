@@ -5,7 +5,7 @@ const Footer = () => (
   <div>
     <h1 className="footer">
       <footer id="footer" className="footerDetails">
-        Website created by:
+        Built by:
         <a href="http://saykaren.com" target="_blank" rel="noopener noreferrer">
           <img
             src={sayKarenLogo}

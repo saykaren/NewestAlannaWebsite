@@ -22,18 +22,20 @@ const App = () => {
 
   return (
     <>
-      <NavigationBar
-        toggleActive={toggleActive}
-        navActive={navActive}
-        toggleNavMenu={toggleNavMenu}
-      />
-      <span onClick={() => setNavActive(false)}>
-        {activeItem === "Home" && <HomeSection />}
+      <section>
+        <NavigationBar
+          toggleActive={toggleActive}
+          navActive={navActive}
+          toggleNavMenu={toggleNavMenu}
+        />
+        <section onClick={() => setNavActive(false)} id="mainApp">
+          {activeItem === "Home" && <HomeSection />}
 
-        {activeItem === "Service" && <Service />}
-        {activeItem === "Credential" && <Credential />}
-        {activeItem === "ContactMe" && <ContactMe />}
-      </span>
+          {activeItem === "Service" && <Service />}
+          {activeItem === "Credential" && <Credential />}
+          {activeItem === "ContactMe" && <ContactMe />}
+        </section>
+      </section>
       <Footer />
     </>
   );
