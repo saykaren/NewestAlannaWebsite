@@ -1,23 +1,22 @@
 {
   "files": {
-    "main.css": "/static/css/main.1e0831c8.chunk.css",
-    "main.js": "/static/js/main.751f6030.chunk.js",
-    "main.js.map": "/static/js/main.751f6030.chunk.js.map",
+    "main.css": "/static/css/main.5a5372ee.chunk.css",
+    "main.js": "/static/js/main.5ce54ee8.chunk.js",
+    "main.js.map": "/static/js/main.5ce54ee8.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.e16c5445.js",
     "runtime-main.js.map": "/static/js/runtime-main.e16c5445.js.map",
     "static/js/2.12f681bd.chunk.js": "/static/js/2.12f681bd.chunk.js",
     "static/js/2.12f681bd.chunk.js.map": "/static/js/2.12f681bd.chunk.js.map",
     "index.html": "/index.html",
-    "static/css/main.1e0831c8.chunk.css.map": "/static/css/main.1e0831c8.chunk.css.map",
+    "static/css/main.5a5372ee.chunk.css.map": "/static/css/main.5a5372ee.chunk.css.map",
     "static/js/2.12f681bd.chunk.js.LICENSE.txt": "/static/js/2.12f681bd.chunk.js.LICENSE.txt",
-    "static/media/alanna_heroPic.b1eea6b8.jpg": "/static/media/alanna_heroPic.b1eea6b8.jpg",
     "static/media/brain.5ca47b97.png": "/static/media/brain.5ca47b97.png",
     "static/media/reference_Karen.f73883db.jpg": "/static/media/reference_Karen.f73883db.jpg"
   },
   "entrypoints": [
     "static/js/runtime-main.e16c5445.js",
     "static/js/2.12f681bd.chunk.js",
-    "static/css/main.1e0831c8.chunk.css",
-    "static/js/main.751f6030.chunk.js"
+    "static/css/main.5a5372ee.chunk.css",
+    "static/js/main.5ce54ee8.chunk.js"
   ]
 }
