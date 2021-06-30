@@ -1,6 +1,5 @@
 @import "./variables.scss";
 .navBox {
-  
 }
 
 .navBar {
@@ -20,12 +19,6 @@
   margin-top: -22px;
 }
 
-.navBar a {
-  text-decoration: none;
-  padding: 10px;
-  color: $primary-color;
-}
-
 #navButton {
   padding: 10px;
   z-index: 2;
@@ -35,7 +28,7 @@
   color: $light-color;
 }
 
-.navLink a:hover {
+.navBarDetails a:hover {
   color: $work-background;
   cursor: pointer;
 }
@@ -70,8 +63,16 @@
 
 .navBarDetails {
   padding: 5px;
+  color: $third-color;
+  text-shadow: 1px 1px $dark-color;
+  font-size: 1.2em;
+}
+
+.navBarDetails:hover {
+  padding: 5px;
   color: $primary-color;
   font-weight: bold;
   text-shadow: 1px 1px $dark-color;
-  font-size: 1.2em;
+  font-size: 2em;
+  cursor: pointer;
 }

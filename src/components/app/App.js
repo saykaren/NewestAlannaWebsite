@@ -18,6 +18,7 @@ const App = () => {
   const toggleActive = (item) => {
     setActiveItem(item);
     setNavActive(false);
+    window.scrollTo(0, 0);
   };
 
   return (
@@ -28,8 +29,35 @@ const App = () => {
           navActive={navActive}
           toggleNavMenu={toggleNavMenu}
         />
+
         <section onClick={() => setNavActive(false)} id="mainApp">
-          {activeItem === "Home" && <HomeSection />}
+          <section className="home_button_section">
+            <div
+              className="home_button"
+              onClick={() => toggleActive("Home")}
+            >
+              Home
+            </div>
+            <div
+              className="home_button"
+              onClick={() => toggleActive("Service")}
+            >
+              Services
+            </div>
+            <div
+              className="home_button"
+              onClick={() => toggleActive("Credential")}
+            >
+              Credentials
+            </div>
+            <div
+              className="home_button"
+              onClick={() => toggleActive("ContactMe")}
+            >
+              Contact Dr. Everett
+            </div>
+          </section>
+          {activeItem === "Home" && <HomeSection toggleActive={toggleActive} />}
 
           {activeItem === "Service" && <Service />}
           {activeItem === "Credential" && <Credential />}
