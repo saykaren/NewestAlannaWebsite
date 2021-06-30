@@ -8,97 +8,8 @@ body,
 html {
   height: 100%;
   background-color: $secondary-color;
-  font-family: Papyrus, Helvetica, sans-serif;
+  font-family: Papyrus, Garamond, Helvetica, sans-serif;
 }
-
-.button {
-  text-decoration: none;
-  border: 1px solid $primary-color;
-  background-color: $primary-color;
-  color: white;
-  border-radius: 25px;
-  padding: 2px;
-  margin-top: 10px;
-  opacity: 0.9;
-}
-
-.button:hover {
-  text-decoration: none;
-  border: 1px solid $light-color;
-  background-color: $light-color;
-  color: $secondary-color;
-  border-radius: 25px;
-  padding: 2px;
-  margin-top: 10px;
-}
-
-#buttonMain {
-  font-size: 2rem;
-}
-
-#buttonSignUp {
-  text-align: center;
-  margin-top: 0.7rem;
-  padding: 1rem;
-}
-
-.contactMe {
-  color: $light-color;
-  font-size: 2rem;
-  padding: 1rem;
-}
-
-#contactTitle {
-  text-align: center;
-  padding: 1rem;
-}
-
-// #credentialTitle,
-// .faqTitles {
-//   text-align: center;
-//   color: $light-color;
-//   font-size: 2rem;
-// }
-
-// .credentialDetails,
-// .contactMeDetails {
-//   border: 0.2rem solid $primary-color;
-//   font-size: 1.5rem;
-//   margin: auto;
-//   margin-bottom: 0.5rem;
-//   background-color: $work-background;
-//   position: relative;
-//   color: $primary-color;
-//   width: 45%;
-//   word-wrap: break-word;
-//   padding: 1rem;
-// }
-
-// .reference {
-//   border: 0.2rem solid $dark-color;
-//   width: 15rem;
-//   margin: 1rem;
-//   background-color: $work-background;
-//   padding: 0.2rem;
-// }
-
-// .referenceImage {
-//   width: 15rem;
-// }
-
-// #referenceSectionContainer {
-//   display: flex;
-//   flex-direction: row;
-//   color: black;
-//   flex-wrap: wrap;
-//   justify-content: space-around;
-// }
-
-// #referenceTitle {
-//   color: $light-color;
-//   font-size: 2.5rem;
-//   text-align: center;
-// }
 
 .strong {
   font-weight: bold;
@@ -106,13 +17,10 @@ html {
 
 #mainApp{
   min-height: 90vh;
-  // padding-bottom: 10px;
-  // padding: 10px;
 }
 .web_section_title {
   text-align: center;
   font-size: 2em;
-  // text-shadow: 4px 3px 0px #fff, 9px 8px 0px rgba(0,0,0,0.15); // double shadow
   text-shadow:  4px 2px 0.5px rgba(0,0,0,0.15);
   margin-left: 10px;
 }
