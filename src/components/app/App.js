@@ -6,6 +6,7 @@ import HomeSection from "./HomeSection";
 import Service from "./Service";
 import Credential from "./Credential";
 import ContactMe from "./ContactMe";
+import FAQ from "./FAQ";
 
 const App = () => {
   const [activeItem, setActiveItem] = useState("Home");
@@ -52,15 +53,23 @@ const App = () => {
             </div>
             <div
               className="home_button"
+              onClick={() => toggleActive("FAQ")}
+            >
+              FAQ
+            </div>
+            <div
+              className="home_button"
               onClick={() => toggleActive("ContactMe")}
             >
               Contact Dr. Everett
             </div>
+
           </section>
           {activeItem === "Home" && <HomeSection toggleActive={toggleActive} />}
 
           {activeItem === "Service" && <Service />}
           {activeItem === "Credential" && <Credential />}
+          {activeItem === "FAQ" && <FAQ />}
           {activeItem === "ContactMe" && <ContactMe />}
         </section>
       </section>
