@@ -1,0 +1,39 @@
+@import "./variables.scss";
+#heroContactPic {
+  width: 20rem;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#heroText {
+  font-size: 4rem;
+  text-align: center;
+}
+
+#heroTitle {
+  font-size: 0.5em;
+  margin-top: -1rem;
+}
+
+.home_button {
+  text-decoration: overline;
+  font-weight: bold;
+  padding: 10px;
+  margin: 10px;
+}
+
+.home_button:hover {
+  color: $primary-color;
+  text-decoration: none;
+  font-size: large;
+}
+
+.home_button_section {
+  text-align: center;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  padding-left: 10vw;
+  padding-top: 20px;
+}

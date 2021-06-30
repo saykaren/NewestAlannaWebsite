@@ -2,7 +2,7 @@
 @import "./Navigation.scss";
 @import "./Footer.scss";
 @import "./Services.scss";
-@import "./Hero.scss";
+@import "./HomeSection.scss";
 
 body,
 html {
@@ -107,7 +107,7 @@ html {
 #mainApp{
   min-height: 90vh;
   // padding-bottom: 10px;
-  padding: 10px;
+  // padding: 10px;
 }
 .web_section_title {
   text-align: center;
