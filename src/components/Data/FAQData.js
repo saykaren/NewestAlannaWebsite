@@ -14,7 +14,7 @@ export const FAQData = [
     Answer:
       "I will accept cash or check when in person. Venmo, Apple Pay or another manner agreed upon for virtual treatment. Payment is due at the start or end of each session.",
   },
-  { Question: "What is the best way to get in touch with you?", Answer: `Please feel free to email me at: Call or text me:` },
+  // { Question: "What is the best way to get in touch with you?", Answer: `Please feel free to email me at: Call or text me:` },
 //  { Question: "", Answer: "" },
 //   { Question: "", Answer: "" },
 //   { Question: "", Answer: "" },
