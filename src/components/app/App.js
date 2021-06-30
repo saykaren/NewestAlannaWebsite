@@ -4,7 +4,6 @@ import NavigationBar from "./Navigation";
 import Footer from "./Footer1";
 import HomeSection from "./HomeSection";
 import Service from "./Service";
-import Credential from "./Credential";
 import ContactMe from "./ContactMe";
 import FAQ from "./FAQ";
 
@@ -30,7 +29,6 @@ const App = () => {
           navActive={navActive}
           toggleNavMenu={toggleNavMenu}
         />
-
         <section onClick={() => setNavActive(false)} id="mainApp">
           <section className="home_button_section">
             <div
@@ -44,12 +42,6 @@ const App = () => {
               onClick={() => toggleActive("Service")}
             >
               Services
-            </div>
-            <div
-              className="home_button"
-              onClick={() => toggleActive("Credential")}
-            >
-              Credentials
             </div>
             <div
               className="home_button"
@@ -68,7 +60,6 @@ const App = () => {
           {activeItem === "Home" && <HomeSection toggleActive={toggleActive} />}
 
           {activeItem === "Service" && <Service />}
-          {activeItem === "Credential" && <Credential />}
           {activeItem === "FAQ" && <FAQ />}
           {activeItem === "ContactMe" && <ContactMe />}
         </section>

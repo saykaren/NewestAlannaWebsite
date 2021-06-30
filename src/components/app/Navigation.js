@@ -20,12 +20,6 @@ const NavigationBar = ({ toggleActive, navActive, toggleNavMenu }) => {
           </div>
           <div
             className="navBarDetails"
-            onClick={() => toggleActive("Credential")}
-          >
-            Credentials
-          </div>
-          <div
-            className="navBarDetails"
             onClick={() => toggleActive("FAQ")}
           >
             FAQ
