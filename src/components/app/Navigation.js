@@ -6,7 +6,6 @@ const NavigationBar = ({ toggleActive, navActive, toggleNavMenu }) => {
       <div id="navButton" onClick={() => toggleNavMenu()}>
         {navActive ? <>&#10005;</> : <>&#9776;</>}
       </div>
-
       {navActive && (
         <div className="navBar">
           <div className="navBarDetails" onClick={() => toggleActive("Home")}>
@@ -21,11 +20,8 @@ const NavigationBar = ({ toggleActive, navActive, toggleNavMenu }) => {
           <div className="navBarDetails" onClick={() => toggleActive("FAQ")}>
             FAQ
           </div>
-          <div
-            className="navBarDetails"
-            onClick={() => toggleActive("Documents")}
-          >
-            Documents
+          <div className="navBarDetails" onClick={() => toggleActive("Forms")}>
+            Forms
           </div>
           <div
             className="navBarDetails"

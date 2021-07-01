@@ -6,7 +6,7 @@ import HomeSection from "./HomeSection";
 import Service from "./Service";
 import ContactMe from "./ContactMe";
 import FAQ from "./FAQ";
-import Documents from "./Documents";
+import Forms from "./Forms";
 
 const isWindowAvailable = typeof window !== "undefined";
 const getPosition = () => (isWindowAvailable ? window.pageYOffset : undefined);
@@ -66,9 +66,9 @@ const App = () => {
             </div>
             <div
               className="home_button"
-              onClick={() => toggleActive("Documents")}
+              onClick={() => toggleActive("Forms")}
             >
-              Documents
+              Forms
             </div>
             <div
               className="home_button"
@@ -80,7 +80,7 @@ const App = () => {
           {activeItem === "Home" && <HomeSection toggleActive={toggleActive} />}
           {activeItem === "Service" && <Service />}
           {activeItem === "FAQ" && <FAQ />}
-          {activeItem === "Documents" && <Documents />}
+          {activeItem === "Forms" && <Forms />}
           {activeItem === "ContactMe" && <ContactMe />}
         </section>
       </section>

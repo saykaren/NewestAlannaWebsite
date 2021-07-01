@@ -2,11 +2,11 @@ import React from "react";
 import DocumentData from "../Data/Documents.js";
 import docImage from "../assets/folder_open36dp.png";
 
-const Documents = () => (
+const Forms = () => (
   <div className="web_section_box">
     <h3 className="web_section_title">Documents</h3>
     <div className="notes">
-      Note: Please feel free to reach out to{" "}
+      Note: Please print, fill out and bring to your appointment. Please contact{" "}
       <a href="mailto:alannaeeverett@gmail.com">me</a> with any questions.{" "}
     </div>
     {DocumentData.map((doc, docIndex) => (
@@ -20,4 +20,4 @@ const Documents = () => (
   </div>
 );
 
-export default Documents;
+export default Forms;
