@@ -7,6 +7,7 @@ import Service from "./Service";
 import ContactMe from "./ContactMe";
 import FAQ from "./FAQ";
 import Forms from "./Forms";
+import NavItems from "../Data/NavigationItems";
 
 const isWindowAvailable = typeof window !== "undefined";
 const getPosition = () => (isWindowAvailable ? window.pageYOffset : undefined);
@@ -52,30 +53,15 @@ const App = () => {
 
         <section onClick={() => setNavActive(false)} id="mainApp">
           <section className="home_button_section">
-            <div className="home_button" onClick={() => toggleActive("Home")}>
-              Home
-            </div>
-            <div
-              className="home_button"
-              onClick={() => toggleActive("Service")}
-            >
-              Services
-            </div>
-            <div className="home_button" onClick={() => toggleActive("FAQ")}>
-              FAQ
-            </div>
-            <div
-              className="home_button"
-              onClick={() => toggleActive("Forms")}
-            >
-              Forms
-            </div>
-            <div
-              className="home_button"
-              onClick={() => toggleActive("ContactMe")}
-            >
-              Contact Dr. Everett
-            </div>
+            {NavItems.map((nav, navIndex) => (
+              <div
+                className="home_button"
+                onClick={() => toggleActive(`${nav.toggleAction}`)}
+                key={navIndex}
+              >
+                {nav.Title}
+              </div>
+            ))}
           </section>
           {activeItem === "Home" && <HomeSection toggleActive={toggleActive} />}
           {activeItem === "Service" && <Service />}
