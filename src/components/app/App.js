@@ -6,26 +6,27 @@ import HomeSection from "./HomeSection";
 import Service from "./Service";
 import ContactMe from "./ContactMe";
 import FAQ from "./FAQ";
+import Documents from "./Documents";
 
-const isWindowAvailable = typeof window !== "undefined"
-const getPosition = () => isWindowAvailable ? window.pageYOffset : undefined;
+const isWindowAvailable = typeof window !== "undefined";
+const getPosition = () => (isWindowAvailable ? window.pageYOffset : undefined);
 
 const App = () => {
   const [activeItem, setActiveItem] = useState("Home");
   const [navActive, setNavActive] = useState(false);
-  const [scrollPosition, setScrollPosition] = useState(getPosition())
+  const [scrollPosition, setScrollPosition] = useState(getPosition());
 
-  useEffect(()=> {
-    if(!isWindowAvailable){
-      return false
+  useEffect(() => {
+    if (!isWindowAvailable) {
+      return false;
     }
     const handleScroll = () => {
-      setScrollPosition(getPosition())
-    }
+      setScrollPosition(getPosition());
+    };
 
-    window.addEventListener("scroll", handleScroll)
+    window.addEventListener("scroll", handleScroll);
 
-    return () => window.removeEventListener("scroll", handleScroll)
+    return () => window.removeEventListener("scroll", handleScroll);
   }, []);
 
   const toggleNavMenu = () => {
@@ -41,18 +42,17 @@ const App = () => {
   return (
     <>
       <section>
-        {scrollPosition > 54 && <NavigationBar
-          toggleActive={toggleActive}
-          navActive={navActive}
-          toggleNavMenu={toggleNavMenu}
-        />}
-      
+        {scrollPosition > 54 && (
+          <NavigationBar
+            toggleActive={toggleActive}
+            navActive={navActive}
+            toggleNavMenu={toggleNavMenu}
+          />
+        )}
+
         <section onClick={() => setNavActive(false)} id="mainApp">
           <section className="home_button_section">
-            <div
-              className="home_button"
-              onClick={() => toggleActive("Home")}
-            >
+            <div className="home_button" onClick={() => toggleActive("Home")}>
               Home
             </div>
             <div
@@ -61,11 +61,14 @@ const App = () => {
             >
               Services
             </div>
+            <div className="home_button" onClick={() => toggleActive("FAQ")}>
+              FAQ
+            </div>
             <div
               className="home_button"
-              onClick={() => toggleActive("FAQ")}
+              onClick={() => toggleActive("Documents")}
             >
-              FAQ
+              Documents
             </div>
             <div
               className="home_button"
@@ -77,6 +80,7 @@ const App = () => {
           {activeItem === "Home" && <HomeSection toggleActive={toggleActive} />}
           {activeItem === "Service" && <Service />}
           {activeItem === "FAQ" && <FAQ />}
+          {activeItem === "Documents" && <Documents />}
           {activeItem === "ContactMe" && <ContactMe />}
         </section>
       </section>

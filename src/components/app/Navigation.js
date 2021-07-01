@@ -18,11 +18,14 @@ const NavigationBar = ({ toggleActive, navActive, toggleNavMenu }) => {
           >
             Services
           </div>
+          <div className="navBarDetails" onClick={() => toggleActive("FAQ")}>
+            FAQ
+          </div>
           <div
             className="navBarDetails"
-            onClick={() => toggleActive("FAQ")}
+            onClick={() => toggleActive("Documents")}
           >
-            FAQ
+            Documents
           </div>
           <div
             className="navBarDetails"
