@@ -1,4 +1,5 @@
 import React from "react";
+import NavItems from "../Data/NavigationItems";
 
 const NavigationBar = ({ toggleActive, navActive, toggleNavMenu }) => {
   return (
@@ -8,27 +9,15 @@ const NavigationBar = ({ toggleActive, navActive, toggleNavMenu }) => {
       </div>
       {navActive && (
         <div className="navBar">
-          <div className="navBarDetails" onClick={() => toggleActive("Home")}>
-            Home
-          </div>
-          <div
-            className="navBarDetails"
-            onClick={() => toggleActive("Service")}
-          >
-            Services
-          </div>
-          <div className="navBarDetails" onClick={() => toggleActive("FAQ")}>
-            FAQ
-          </div>
-          <div className="navBarDetails" onClick={() => toggleActive("Forms")}>
-            Forms
-          </div>
-          <div
-            className="navBarDetails"
-            onClick={() => toggleActive("ContactMe")}
-          >
-            About Me
-          </div>
+          {NavItems.map((nav, navIndex) => (
+            <div
+              className="navBarDetails"
+              onClick={() => toggleActive(`${nav.toggleAction}`)}
+              key={navIndex}
+            >
+              {nav.Title}
+            </div>
+          ))}
         </div>
       )}
     </section>
